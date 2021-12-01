@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.card {
+        
+        width: 420px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top: 150px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 3px 0 rgba(84, 94, 111, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "Roboto Mono", monospace;
+}
+
+.pomoMode {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.btn{
+   
+    width: 146px;
+    height: 45px;
+    background-color: #fff;
+    margin: 5px;
+    
+    border: 1px solid rgba(28,110,164,0.14);
+    
+    border-radius: 7px 7px 7px 7px;
+    transition: 0.2s ease-in all;
+}
+ .btnAdd:hover {
+   
+    border: 3px dashed rgba(28,110,164,0.14);
+    
+    
+}
+.btn:hover {
+    
+    border-bottom: 6px solid rgba(28,110,164,0.14);
+}
+.btnAdd:hover {
+   
+    border: 4px dashed rgba(28,110,164,0.14);
+    
+    
+}
+
+.btn select:hover{
+    border-bottom: 1px solid rgba(28,110,164,0.14);
+}
+.card .timer {
+    font-size: 40px ;
+     
+}
+.card input {
+    align-content: center;
+    width: 55%;
+    height: 80px;
+    margin: 10px;
+    font-size: 40px ;
+}
